@@ -1,0 +1,19 @@
+/*MAPS aplicado a redes sociales en página de contacto*/ 
+
+$mapRedes:(facebook: red, instagram:blue,twitter:green); 
+
+@each $redes, $color in $mapRedes {
+    .#{$redes} {
+        color: $color;
+    }
+    
+}
+
+/*MAP-GET*/
+
+$estilo: (color:aquamarine, tamFuente: 15px);
+
+.fuenteEstilo {
+    background-color: map-get($estilo, color );
+    font-size: map-get($estilo, tamFuente );
+}

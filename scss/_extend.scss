@@ -1,0 +1,12 @@
+/*extend*/
+
+.estiloUno {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    text-transform: bold ;
+}
+
+.estiloDos {
+    font-size: 15px;
+    @extend .estiloUno;
+}

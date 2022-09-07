@@ -1,0 +1,106 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration-style: none; }
+
+/*body*/
+.container {
+  background-color: aquamarine; }
+
+/* Header */
+header {
+  background-color: darkcyan; }
+
+nav .navBarM {
+  background-color: darkcyan; }
+
+h1 {
+  color: black;
+  font-size: 2rem; }
+
+/* Pagina de inicio */
+.imgInicio {
+  object-fit: cover;
+  width: 600px;
+  height: 500px; }
+
+section .parrafoInicio {
+  margin: 25px; }
+
+/* FOOTER  */
+footer {
+  background-color: darkcyan;
+  color: white;
+  font-size: 1rem; }
+  footer ul li {
+    font-size: 1rem; }
+    footer ul li a {
+      color: white !important; }
+      footer ul li a:hover {
+        background-color: darkcyan; }
+
+/* Pagina de productos */
+.imgProductos {
+  height: 300px;
+  object-fit: cover; }
+
+.imgProducto1 {
+  margin: 7px; }
+
+.tamanoCard {
+  font-size: 20px; }
+
+.btnColor1 {
+  background-color: darkcyan;
+  color: white;
+  font-size: 1.2rem; }
+
+/* Pagina de contacto */
+.imgContacto {
+  object-fit: cover;
+  width: 500px;
+  height: 400px; }
+
+/* Pagina de Formas de pago */
+.menuFormPago {
+  background-color: darkcyan; }
+
+.textColor {
+  color: white; }
+
+.fondoColorGradiente {
+  background: linear-gradient(to right, #1bc5c5, darkcyan);
+  color: white;
+  font-size: 1.2rem; }
+
+/*MAPS aplicado a redes sociales en página de contacto*/
+.facebook {
+  color: red; }
+
+.instagram {
+  color: blue; }
+
+.twitter {
+  color: green; }
+
+/*MAP-GET*/
+.fuenteEstilo {
+  background-color: aquamarine;
+  font-size: 15px; }
+
+/*extend*/
+.estiloUno, .estiloDos {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  text-transform: bold; }
+
+.estiloDos {
+  font-size: 15px; }
+
+/*Mixin*/
+.parrafoEstilo3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  text-align: center; }

@@ -1,0 +1,11 @@
+/*Mixin*/
+
+@mixin parrafoInicio {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.parrafoEstilo3 {
+    @include parrafoInicio;
+}

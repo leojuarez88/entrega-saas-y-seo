@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration-style: none;
+}
+  
+// APLICACION DE SASS
+
+@import "variable";
+
+/*body*/
+
+.container{
+      
+    background-color:$color-principal;
+}
+
+
+/* Header */
+
+header {
+  background-color: darkcyan;
+
+}
+
+nav{
+
+    .navBarM {
+      background-color: darkcyan ;
+
+    }
+}
+  
+
+
+h1{
+  color:$color-texto;
+  font-size:$tam-fuente;
+}
+
+  
+/* Pagina de inicio */
+  
+.imgInicio {  
+    object-fit: cover;
+    width: 600px;
+    height: 500px;
+}
+  
+section{
+    
+    
+    .parrafoInicio{
+      margin: 25px;
+
+    }
+}
+
+
+/* FOOTER  */
+  
+footer {
+    background-color: darkcyan;
+    color: white;
+    font-size: 1rem;
+
+    ul{
+
+    
+
+      li{
+
+        font-size: 1rem;
+
+        a{
+
+          color: white !important;
+
+
+          &:hover {
+            background-color: darkcyan;
+          }
+
+        }
+      };
+    }
+  
+  
+  
+}
+ 
+  
+/* Pagina de productos */
+  
+.imgProductos {
+    height: 300px;
+    object-fit: cover;
+}
+.imgProducto1{
+    margin: 7px;
+  
+}
+
+.tamanoCard {
+    font-size: 20px;
+}
+
+.btnColor1{
+    background-color: darkcyan;
+      color: white;
+      font-size: 1.2rem;
+}
+  
+/* Pagina de contacto */
+  .imgContacto{
+    object-fit: cover;
+    width: 500px;
+    height: 400px;
+  
+}
+  
+
+  
+/* Pagina de Formas de pago */
+  
+.menuFormPago{
+    background-color: darkcyan;
+}
+  
+.textColor {
+    color: white;
+}
+  
+.fondoColorGradiente {
+    background: linear-gradient(to right, rgb(27, 197, 197), darkcyan);
+    color: white;
+    font-size: 1.2rem;
+}
+
+@import "maps";
+@import "extend";
+@import "mixin";
